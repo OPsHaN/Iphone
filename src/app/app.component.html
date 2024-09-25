@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+            <div class=" d-xs-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block position-relative mobile">
+                <img class="img-fluid mx-auto" src="/assets/pngwing.com.png" alt="small">
+                <div class="topbar position-absolute d-flex justify-content-between ">
+                    <div class="d-flex justify-content-start ms-4 mt-2">
+                        <div class="time">{{time | date:'hh:mm'}}</div>
+                    </div>
+                    <div class="d-flex justify-content-end me-3 mt-2">
+                        <img class="img-fluid mx-1" src="/assets/signal.svg" style="width: 0.9rem; height: 1rem;">
+                        <img class="img-fluid mx-1" src="/assets/wifi-alt.svg" style="width: 0.9rem; height: 1rem;">
+                        <img class="img-fluid mx-1" src="/assets/battery-full.svg" style="width: 0.9rem; height: 1rem;">
+                    </div>
+                </div>
+                <div class="apllicationName position-absolute me-3 mt-2">
+                    <img class="img-fluid me-2 bg-white p-1 rounded-circle" src="/assets/cc.svg"
+                        style="width: 2rem; height: 2rem;">communicate
+                </div>
+                <div class="whatsapp position-absolute">
+                    <img class="img-fluid" src="/assets/whatsapp.jpg" style="width: 20rem; height: 26.8rem;">
+                    <div class="position-absolute day start-50 translate-middle">
+                        Today
+                    </div>
+                    <div class="chatbox position-absolute ">
+                        <img class="img-fluid position-absolute w-100 p-2" src="/assets/offer.jpg">
+                        <div class="detailsbox ">
+                            <h6>Hello Mostafa,</h6>
+                            <h6>How are you doing?</h6>
+                            <p input class="mt-3 mb-0 text-muted">Thank you For your time.</p>
+                            <small class="d-flex justify-content-end text-muted">10:30</small>
+                            <hr class="my-2">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover d-flex justify-content-center"
+                                href="https://www.procrew.pro/" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square d-flex justify-content-center align-items-center mx-2"></i>Visit
+                                our website</a>
+                            <hr class="my-2">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover d-flex justify-content-center"
+                                href="tel:+201285856110"><i
+                                    class="fa-solid fa-phone mx-2 d-flex justify-content-center align-items-center"></i>Call
+                                us</a>
+                            <hr class="my-2">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover d-flex justify-content-center"
+                                href="" (click)="callAlert()"><i
+                                    class="fa-solid fa-reply-all mx-2 d-flex justify-content-center align-items-center"></i>Done</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatbar position-absolute start-50 translate-middle d-flex justify-content-between">
+                    <div class="d-flex justify-content-start ms-1 mt-1">
+                        <img class="img-fluid mx-1" src="/assets/plus.svg" style="width: 1rem; height: 1rem;">
+                    </div>
+                    <div class="d-flex justify-content-center mt-1">
+                        <div class="textinput bg-white"><img class="img-fluid" src="/assets/sticker.svg"
+                                style="width: 0.9rem; height: 0.9rem;">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end me-1 mt-1">
+                        <img class="img-fluid mx-1" src="/assets/camera.svg" style="width: 1rem; height: 1rem;">
+                        <img class="img-fluid mx-1" src="/assets/mic.svg" style="width: 1rem; height: 1rem;">
+                    </div>
+                </div>
+                <span class="nav position-absolute start-50 translate-middle rounded-pill bg-dark"></span>
+            </div>

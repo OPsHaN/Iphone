@@ -1,0 +1,132 @@
+.mobile img {
+    z-index: 10;
+    position: relative;
+}
+
+.topbar {
+    background-color: #f4f4f4;
+    top: 12px;
+    width: 260px;
+    z-index: 9;
+    left: 10px;
+    height: 70px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 4px 2px -2px rgb(202, 202, 202);
+}
+
+.time {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.apllicationName {
+    top: 40px;
+    left: 40px;
+    z-index: 12;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.day {
+    top: 20px;
+    z-index: 20;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #f9f6ef;
+    padding: 1px 20px;
+    box-shadow: 0 4px 8px 0 rgba(92, 92, 92, 0.2), 0 6px 20px 0 rgba(111, 111, 111, 0.19);
+
+}
+
+.whatsapp {
+    top: 85px;
+    width: 250px;
+    z-index: 11;
+    left: 15px;
+}
+
+.chatbox {
+    width: 200px;
+    /* max-width: 100vw;
+    max-height: 100vh; */
+    min-height: 380px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: 20;
+    left: 20px;
+    top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(92, 92, 92, 0.2), 0 6px 20px 0 rgba(111, 111, 111, 0.19);
+}
+
+.chatbox img {
+    border-radius: 15px;
+    height: 150px;
+}
+
+.chatbox::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 10px;
+    left: calc(0% - 15px);
+    /* left: -15px;
+    top: 275px; */
+    border-top: 10px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 5px solid transparent;
+}
+
+.detailsbox {
+    position: absolute;
+    top: 155px;
+    padding: 0px 10px;
+
+    a {
+        color: #1492e6 !important;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    a:hover {
+        color: #000000 !important;
+        text-decoration: none;
+    }
+}
+
+.detailsbox h6 {
+    font-size: 14px;
+}
+
+.chatbar {
+    z-index: 9;
+    top: 540px;
+    background-color: #f4f4f4;
+    height: 50px;
+    width: 260px;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 0px 0px 0px #888, 0px 0px 3px #888;
+}
+
+.textinput {
+    width: 170px;
+    height: 20px;
+    border-radius: 25px;
+    border: 1px solid #d3d3d3;
+    position: relative;
+
+    img {
+        right: 0px;
+        position: absolute;
+        margin-top: 2px;
+        margin-right: 5px;
+    }
+}
+
+.nav {
+    z-index: 10;
+    bottom: 15px;
+    width: 35%;
+    height: 4px;
+}
